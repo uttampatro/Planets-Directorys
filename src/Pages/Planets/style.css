@@ -1,0 +1,84 @@
+.planets-container {
+  max-width: 1300px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.pagination {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination:hover {
+  background-color: #0056b3;
+}
+
+.title {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.planet-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+.planet-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loading {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.show-residents-button {
+  background-color: black;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.no-residents-button {
+  background-color: white;
+  color: black;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.show-residents-button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.show-residents-button:active {
+  transform: translateY(1px);
+}
