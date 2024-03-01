@@ -1,0 +1,12 @@
+.residents-container {
+  margin-top: 10px;
+}
+
+.residents-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resident-item {
+  margin-bottom: 5px;
+}
